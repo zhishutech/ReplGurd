@@ -1,6 +1,6 @@
 #/usr/bin/python
 #coding：utf8
-#作者：吴炳锡 知数堂MySQL课程中自动化处理Demo
+#作者：吴炳锡 知数堂MySQL课程中复制故障自动化处理Demo
 
 import sys
 import os

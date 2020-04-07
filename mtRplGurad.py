@@ -151,7 +151,7 @@ def handler_multi_1032(r):
         regex = re.compile(pattern)
         match = regex.search(emsg)
         d.update(match.groupdict())
-    print(d)
+    #print(d)
 
     if (d['event'].upper() == 'DELETE'):
         sql = "stop slave sql_thread; set gtid_next='%s:%s'; begin;commit; set gtid_next=AUTOMATIC;start slave " \
